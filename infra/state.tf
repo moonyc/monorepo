@@ -9,7 +9,7 @@ terraform {
 
 
 resource "aws_s3_bucket" "terraform-state" {
- bucket = "monorepo-toy-project"
+ bucket = "monorepo-toy-project-tfstate"
  acl    = "private"
 
  versioning {
