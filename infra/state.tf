@@ -1,15 +1,15 @@
 terraform {
  backend "s3" {
-   bucket         = "wdc-newsletter-manager-terraform-state"
+   bucket         = "monorepo-toy-project"
    key            = "state/terraform.tfstate"
-   region         = "us-east-1"
+   region         = "eu-central-1"
    dynamodb_table = "terraform-state"
  }
 }
 
 
 resource "aws_s3_bucket" "terraform-state" {
- bucket = "wdc-newsletter-manager-terraform-state"
+ bucket = "monorepo-toy-project"
  acl    = "private"
 
  versioning {
