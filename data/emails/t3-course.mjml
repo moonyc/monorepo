@@ -5,7 +5,7 @@
         <mj-image
           border-radius="50%"
           width="100px"
-          src="https://www.webdevcody.com/wdc.jpeg"
+          src="https://www.monorepo-toy-project.com/wdc.jpeg"
         ></mj-image>
 
         <mj-divider border-color="#2fdeed"></mj-divider>

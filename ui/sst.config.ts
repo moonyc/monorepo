@@ -6,8 +6,8 @@ import * as acm from "aws-cdk-lib/aws-certificatemanager";
 export default {
   config(_input) {
     return {
-      name: "newsletter-ui",
-      region: "us-east-1",
+      name: "monorepo-ui",
+      region: "eu-central-1",
     };
   },
   stacks(app) {
@@ -15,13 +15,13 @@ export default {
       const certificate = acm.Certificate.fromCertificateArn(
         stack,
         "Certificate",
-        `arn:aws:acm:us-east-1:493255580566:certificate/d13e3d50-9583-4379-a921-674bc31a6d2d`
+        `arn:aws:acm:eu-central-1:748493488945:certificate/e21efb4c-be03-4a20-a160-e481b17d9670`
       );
 
       const site = new NextjsSite(stack, "site", {
         customDomain: {
           isExternalDomain: true,
-          domainName: "newsletter.webdevcody.com",
+          domainName: "ui.monorepo-toy-project.com",
           cdk: {
             certificate,
           },

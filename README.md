@@ -72,8 +72,8 @@ Modify the `policy.json` file and attach it to your user.
 
 Create and validate a certficate for the following:
 
-- newsletter.webdevcody.com
-- newsletter-api.webdevcody.com
+- newsletter.monorepo-toy-project.com
+- newsletter-api.monorepo-toy-project.com
 
 #### Domain
 

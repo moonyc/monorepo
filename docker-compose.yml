@@ -14,7 +14,7 @@ services:
       - _build
     command: tail -f /dev/null
     environment:
-      REGION: us-east-1
+      REGION: eu-central-1
       ACCESS_KEY: local
       SECRET_KEY: local
       SES_ENDPOINT: http://ses-local:9001
@@ -34,7 +34,7 @@ services:
       - "3000:3000"
     entrypoint: ["yarn", "workspace", "@wdc-newsletter/ui", "dev"]
     environment:
-      REGION: us-east-1
+      REGION: eu-central-1
       ACCESS_KEY: local
       SECRET_KEY: local
       SES_ENDPOINT: http://ses-local:9001
@@ -57,7 +57,7 @@ services:
     depends_on:
       - _build
     environment:
-      REGION: us-east-1
+      REGION: eu-central-1
       ACCESS_KEY: local
       SECRET_KEY: local
       SES_ENDPOINT: http://ses-local:9001
@@ -85,7 +85,7 @@ services:
       - dynamodb-local
     environment:
       DYNAMO_ENDPOINT: "http://dynamodb-local:8000"
-      REGION: "us-east-1"
+      REGION: "eu-central-1"
       ACCESS_KEY: local
       SECRET_KEY: local
     restart: "no"
@@ -101,7 +101,7 @@ services:
       - "8001:8001"
     environment:
       DYNAMO_ENDPOINT: "http://dynamodb-local:8000"
-      AWS_REGION: "us-east-1"
+      AWS_REGION: "eu-central-1"
       AWS_ACCESS_KEY_ID: local
       AWS_SECRET_ACCESS_KEY: local
     depends_on:

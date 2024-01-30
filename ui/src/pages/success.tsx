@@ -33,9 +33,9 @@ const SuccessPage: NextPage = () => {
           or send me an email at{" "}
           <a
             className="pointer text-wdc-primary hover:text-wdc-light"
-            href="mailto:webdevcody@gmail.com"
+            href="mailto:municfara@gmail.com"
           >
-            webdevcody@gmail.com
+            municfara@gmail.com
           </a>
           .
         </p>

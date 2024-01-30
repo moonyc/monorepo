@@ -7,7 +7,7 @@ import { YouTubeIcon } from "./icons/YouTubeIcon";
 
 const links = [
   {
-    href: "https://webdevcody.com",
+    href: "https://monorepo-toy-project.com",
     content: (
       <>
         <GlobeIcon />

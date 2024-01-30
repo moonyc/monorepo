@@ -4,7 +4,7 @@ import { DynamoDB } from "aws-sdk";
 import { TABLE_NAME } from "../src/config/constants";
 
 const client = new DynamoDB.DocumentClient({
-  region: "us-east-1",
+  region: "eu-central-1",
   credentials: {
     accessKeyId: "local",
     secretAccessKey: "local",

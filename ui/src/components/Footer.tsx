@@ -8,14 +8,14 @@ export function Footer() {
     <footer className="bg-cyan-200 p-4 shadow dark:bg-gray-900 md:flex md:items-center md:justify-between md:p-6">
       <span className="text-sm sm:text-center">
         © 2023{" "}
-        <a href="https://webdevcody.com" className="hover:underline">
-          WebDevCody.com
+        <a href="https://monorepo-toy-project.com" className="hover:underline">
+          monorepo-toy-project.com
         </a>
       </span>
       <ul className="mt-6 grid grid-cols-2 flex-wrap items-center gap-8 text-xs sm:mt-0 sm:grid-cols-3 md:mt-3 md:flex">
         <li>
           <a
-            href="https://webdevcody.com"
+            href="https://monorepo-toy-project.com"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-1 hover:text-wdc-primary"

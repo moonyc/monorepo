@@ -9,7 +9,7 @@ describe("a user can subscribe to my newsletter", () => {
   });
 
   it("loads the ui and type into the form", () => {
-    const expectedEmail = "webdevcody@gmail.com";
+    const expectedEmail = "municfara@gmail.com";
     cy.visit("/");
     cy.get('[data-testid="email-input"]').type(expectedEmail);
     cy.get('[data-testid="subscribe-button"]').click();

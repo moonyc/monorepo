@@ -64,8 +64,8 @@ export function sendEmailFactory(config: TSesConfig) {
               Data: subject,
             },
           },
-          ReturnPath: "webdevcody@gmail.com",
-          Source: "WebDevCody Newsletter <newsletter@webdevcody.com>",
+          ReturnPath: "municfara@gmail.com",
+          Source: "Monorepo Newsletter <newsletter@monorepo-toy-project.com>",
         })
         .promise()
         .catch((err) => {

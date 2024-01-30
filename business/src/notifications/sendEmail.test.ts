@@ -5,7 +5,7 @@ import { env } from "../config/constants";
 jest.mock("../config/constants", () => {
   return {
     env: {
-      HOST_NAME: "https://newsletter.webdevcody.com",
+      HOST_NAME: "https://ui.monorepo-toy-project.com",
     },
   };
 });
@@ -58,8 +58,8 @@ describe("sendEmail", () => {
           Data: "welcome!",
         },
       },
-      ReturnPath: "webdevcody@gmail.com",
-      Source: "WebDevCody Newsletter <newsletter@webdevcody.com>",
+      ReturnPath: "municfara@gmail.com",
+      Source: "WebDevCody Newsletter <newsletter@monorepo-toy-project.com>",
     });
   });
 });

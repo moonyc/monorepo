@@ -13,10 +13,10 @@ custom:
     minify: false
 
   customDomain:
-    domainName: newsletter-api.webdevcody.com
+    domainName: monorepo-toy-project.com
     basePath: ""
     stage: ${self:provider.stage}
-    certificateName: "newsletter-api.webdevcody.com"
+    certificateName: "monorepo-toy-project.com"
     createRoute53Record: false
     endpointType: regional
 
@@ -24,7 +24,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   stage: prod
-  region: us-east-1
+  region: eu-central-1
 
   environment:
     ACCESS_KEY: ${env:ACCESS_KEY}

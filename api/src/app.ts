@@ -45,9 +45,9 @@ app.use(
 app.use(
   cors({
     origin: [
-      "https://newsletter.webdevcody.com",
-      "https://webdevcody.com",
-      "https://www.webdevcody.com",
+      "https://ui.monorepo-toy-project.com",
+      "https://monorepo-toy-project.com",
+      "https://www.monorepo-toy-project.com",
       "http://localhost:3000",
       "http://ui:3000",
     ],

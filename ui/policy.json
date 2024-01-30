@@ -14,9 +14,9 @@
         "dynamodb:Query"
       ],
       "Resource": [
-        "arn:aws:ses:us-east-1:493255580566:identity/webdevcody.com",
-        "arn:aws:dynamodb:us-east-1:493255580566:table/webdevcody_newsletter",
-        "arn:aws:dynamodb:us-east-1:493255580566:table/webdevcody_newsletter/index/gsi1"
+        "arn:aws:ses:eu-central-1:493255580566:identity/monorepo-toy-project.com",
+        "arn:aws:dynamodb:eu-central-1:493255580566:table/webdevcody_newsletter",
+        "arn:aws:dynamodb:eu-central-1:493255580566:table/webdevcody_newsletter/index/gsi1"
       ]
     }
   ]

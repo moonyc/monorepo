@@ -32,7 +32,7 @@ describe("sendEmails command line tool", () => {
   it("should send out emails to the expected subscribed emails in our database", async () => {
     fsExtra.emptyDirSync(OUTPUT_EMAIL_FILE_PATH);
 
-    const subscriberEmails = ["webdevcody@gmail.com", "bob@example.com"];
+    const subscriberEmails = ["municfara@gmail.com", "bob@example.com"];
 
     for (const email of subscriberEmails) {
       await subscribeUseCase(
